@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-contenido {
+    padding: 25px;
+}
+
+.indice-superior ul {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.indice-superior ul li {
+    list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.indice-superior ul li:hover {
+    color: black;
+}
+
+.adoptar-gatos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.adoptar-gatos img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.adoptar-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.adoptar-gatos img:hover {
+    width: 350px;
+    height: 350px;
+}
+
+.adoptar-gatos p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+.adoptar-gatos ul {
+    list-style: none;
+}
+
+.adoptar-gatos ul li {
+    font-weight: bold;
+}
+
+.adoptar-gatos ul li a {
+    text-decoration: none;
+    color: brown;
+}
+
+
+
+.indice-inferior ul {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.indice-inferior ul li {
+    list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.indice-inferior ul li:hover {
+    color: black;
+}
