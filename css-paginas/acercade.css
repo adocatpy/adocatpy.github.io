@@ -8,33 +8,60 @@ body {
     padding: 25px;
 }
 
-.contenido-contacto h1 {
+
+.contenido-acercade h2 {
     text-align: center;
 }
-.contenido-contacto p {
-    font-size: 1rem;
+
+.contenido-acercade h3 {
+    text-align: center;
+}
+
+.contenido-acercade p {
     text-align: justify;
 }
 
-.contenido-contacto ul {
+.contenido-acercade ul {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.contenido-contacto ul li {
+.contenido-acercade ul li {
     list-style: none;
     font-weight: bold;
     font-style: italic;
     margin: 30px;
 }
 
-.contenido-contacto ul li a {
+.contenido-acercade ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-style: italic;
 }
+
+.acercade-datos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.acercade-datos p {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 200px;
+    border: 5px solid blanchedalmond;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+
 
 .contenido-ubicacion h3 {
     text-align: center;
@@ -60,6 +87,11 @@ body {
 
 .indice-inferior ul li {
     list-style: none;
+    
+}
+
+.indice-inferior ul li a {
+    text-decoration: none;
     color: blue;
     font-weight: bold;
     font-size: 15px;

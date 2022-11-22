@@ -16,6 +16,11 @@ body {
 
 .indice-superior ul li {
     list-style: none;
+    
+}
+
+.indice-superior ul li a {
+    text-decoration: none;
     color: blue;
     font-weight: bold;
     font-size: 15px;
@@ -25,55 +30,54 @@ body {
     color: black;
 }
 
-.contenido-ayuda {
+.adoptar-gatos {
     display: flex;
     justify-content: center;
+    gap: 50px;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
-.contenido-ayuda article {
-    width: 400px;
-    background-color: #F9C87C;
-    padding: 15px;
-}
-
-
-
-.ayuda-imagen {
-    display: flex;
-    justify-content: center;
-    object-fit: contain;
-}
-
-.ayuda-imagen img {
+.adoptar-gatos img {
     width: 200px;
     height: 200px;
-    border: 2px solid black;
-    border-radius: 50px;
-}
-.contenido-ayuda h2 {
-    text-align: center;
-}
-.contenido-ayuda p {
-    font-size: 1rem;
-    text-align: justify;
+    object-fit: contain;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: black;
+
 }
 
-.contenido-ayuda p a {
+.adoptar-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.adoptar-gatos img:hover {
+    width: 350px;
+    height: 350px;
+}
+
+.adoptar-gatos p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+.adoptar-gatos ul {
+    list-style: none;
+}
+
+.adoptar-gatos ul li {
+    font-weight: bold;
+}
+
+.adoptar-gatos ul li a {
     text-decoration: none;
     color: brown;
 }
 
-.contenido-ayuda ul li {
-    list-style: none;
-    
-}
-
-.contenido-ayuda ul li a {
-    text-decoration: none;
-    color: black;
-}
 
 
 .indice-inferior ul {
@@ -84,6 +88,11 @@ body {
 
 .indice-inferior ul li {
     list-style: none;
+    
+}
+
+.indice-inferior ul li a {
+    text-decoration: none;
     color: blue;
     font-weight: bold;
     font-size: 15px;

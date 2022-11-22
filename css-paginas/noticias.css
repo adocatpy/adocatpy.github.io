@@ -5,45 +5,42 @@ body {
 }
 
 .container-contenido {
-  padding: 25px;
+    padding: 25px;
 }
 
-.container-contenido section h3 {
+.indice-superior ul {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.indice-superior ul li {
+    list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.indice-superior ul li:hover {
+    color: black;
+}
+
+.video-contenido {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container-contenido section article p {
     text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 .container-contenido section p {
-    font-size: 1rem;
-    text-align: justify;
-    margin: 50px;
-}
-.container-contenido section ul {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-}
-.container-contenido section ul li {
-    list-style: none;
-    font-weight: bold;
-    font-style: italic;
-}
-.container-contenido section ul a {
-   text-decoration: none;
-   color: black;
-   font-weight: bold;
-}
-
-.container-contenido .tienda {
-    text-align: center;
-    margin: 50px    ;
-}
-.container-contenido section p a {
-    color: brown;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.container-contenido section p a {
     animation-name: parpadeo;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -73,19 +70,21 @@ body {
   100% { opacity: 1.0; }
 }
 
-.container-contenido .gif {
-    display: flex;
-    justify-content: center;
-}
-
-
 .indice-inferior ul {
     display: flex;
     justify-content: start;
     gap: 10px;
 }
+
 .indice-inferior ul li {
     list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.indice-inferior ul li a {
+    text-decoration: none;
     color: blue;
     font-weight: bold;
     font-size: 15px;

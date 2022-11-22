@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-contenido {
+    padding: 25px;
+}
+
+.contenido-contacto h1 {
+    text-align: center;
+}
+.contenido-contacto p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.contenido-contacto ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contenido-contacto ul li {
+    list-style: none;
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px;
+}
+
+.contenido-contacto ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contenido-ubicacion h3 {
+    text-align: center;
+}
+
+.contenido-ubicacion p {
+    text-align: center;
+}
+
+.contenido-ubicacion .imagen {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.indice-inferior ul {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.indice-inferior ul li {
+    list-style: none;
+    
+}
+
+.indice-inferior ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.indice-inferior ul li:hover {
+    color: black;
+}

@@ -9,29 +9,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" type="text/css" />
-    <link rel="stylesheet" href="./css-ara/noticias.css" type="text/css" />
+    <link rel="stylesheet" href="./css-paginas/noticias.css" type="text/css" />
 </head>
 <body>
-    <header>
+    <header id="subir">
         <section class="container-navegador">
             <div class="container-navegador-imagen">
                 <img src="./imagenes/Adocat.png" alt="logo">
             </div>
             <div class="container-navegador-enlaces">
                 <ul class="navegador-enlaces">
-                    <li><a href="#">Acerca de nosotros</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Tienda</a></li>
+                    <li><a href="./acerca.html">Acerca de nosotros</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
                 </ul>
             </div>
         </section>
         <section class="container-paginas">
             <ul class="container-paginas-enlaces">
-                <li><a href="#">Adopta</a></li>
-                <li><a href="#">Cómo adoptar</a></li>
-                <li><a href="#">Ayúdanos</a></li>
-                <li><a href="#">Donativos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="./adopta.html">Adopta</a></li>
+                <li><a href="./comoadoptar.html">Cómo adoptar</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="./ayudanos.html">Ayúdanos</a>
+                        <div class="dropdown-content">
+                        <a href="./adopta.html">Adopta</a>
+                        <a href="./donativos.html">Donacion</a>
+                        <a href="./tienda.html">Tienda</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="./donativos.html">Donativos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </section>
     </header>
@@ -65,9 +74,9 @@
     </main>
     <div class="indice-inferior">
         <ul>
-            <li><a href="#"></a>Anterior</li>
-            <li><a href="#"></a>Siguiente</li>
-            <li><a href="#"></a>Inicio</li>
+            <li><a href="./acerca.html">Anterior</a></li>
+            <li><a href="./tienda.html">Siguiente</a></li>
+            <li><a href="./index.html">Inicio</a></li>
         </ul>
     </div>
     <footer>
