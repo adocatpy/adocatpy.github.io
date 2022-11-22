@@ -1,157 +1,108 @@
-<html>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Inicio</title>
-  <link rel="stylesheet" href="./css/adocatstyle.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./css-paginas/index.css" type="text/css" />
 
 </head>
-
-<body class="bg" id="arriba">
-  <nav class="text-center">
-    <img src="./imagenes/Adocat.svg" class="logo" width="250">
-    <ul class="ul-nav">
-      <li>
-        <a href="./acerca.html">Acerca de nosotros</a>
-      </li>
-      <li>
-        <a href="./procesodeadopcion.html">¿Cómo adoptar?</a>
-      </li>
-      <li>
-        <a href="./publicaciones.html">Publicaciones</a>
-      </li>
-      <li>
-        <a href="./contacto.html">Contacto</a>
-      </li>
-    </ul>
-  </nav>
-  <section>
-    <h1 class="text-center">Bienvenidos a Adocat</h1>
-    <p>
-      Queremos que seas parte de la transformación social sobre la conciencia de adoptar responsablemente, ellos
-      necesitan un hogar cálido y lleno de amor.
-      <br>
-      Una de las mejores ideas que puedes tener para el crecimiento de tus hijos es adoptar una mascota para que entre
-      ambos exista una conexión de amor, ternura y respeto hacia el otro.
-      <br>
-      Lamentablemente, existen personas que abandonan a los animales en las calles, dejándolos librados a su buena
-      suerte. Sería importante que adoptaras a algunos de estos seres portadores de alegría.
-      <br>
-      Pero no es tan fácil llevar a un gato a nuestra casa. Es por esto que decidimos ayudarte con esta tarea. Para que
-      conozcas más, te presentamos nuestra organización
-      y nuestra misión con la sociedad, rescatar, sanar y ubicar en un hogar responsable a estos peluditos que traen
-      alegría a nuestro hogar, visita nuestra sección de
-      <a class="fw-bolder" href="./publicaciones.html">Publicaciones</a> para conocer a nuestros gatitos.
-    </p>
-  </section>
-
-  <section>
-    <article class="important-section">
-      <p class="text-center">
-        Si quieres dar en adopción a un gato o informar sobre alguno abandonado para ser rescatado, favor visita nuestra
-        sección de <a class="fw-bolder" href="./contacto.html">Contacto</a>, allí encontrarás nuestos medios disponibles para informes. O
-        visita nuestras redes sociales para enterarte de más detalles.
-      </p>
-      <p class="text-center">
-        Para detalles sobre los requisitos para adoptar un gatito, favor visita nuestra sección
-        <a class="fw-bolder" href="./procesodeadopcion.html">¿Cómo adoptar?</a>, allí encontrarás información relevante del mismo.
-      </p>
-      <h1 class="text-center">
-        Aquí verás a algunos de nuestros gatitos en busca de hogar:
-      </h1>
-      <p class="text-center">
-        Haz click en <a class="fw-bolder" href="./publicaciones.html">Ver más</a> y podrás acceder a las
-        varias publicaciones con los gatitos que buscan hogar.
-      </p>
-      <div class="cats">
-        <figure>
-          <a href="./publicaciones.html">
-            <img src="./imagenes/gato1.jpg" width="200px" height="200px" class="imgcat">
-          </a>          
-          <figcaption>
-            <a class="fw-bolder" href="./publicaciones.html">Ver más</a>
-          </figcaption>
-        </figure>
-
-        <figure>
-          <a href="./publicaciones.html">
-            <img src="./imagenes/gato2.jpg" width="200px" height="200px" class="imgcat">
-          </a>          
-          <figcaption>
-            <a class="fw-bolder" href="./publicaciones.html">Ver más</a>
-          </figcaption>
-        </figure>
-
-        <figure>
-          <a href="./publicaciones.html">
-            <img src="./imagenes/gato3.jpg" width="200px" height="200px" class="imgcat">
-          </a>          
-          <figcaption>
-            <a class="fw-bolder" href="./publicaciones.html">Ver más</a>
-          </figcaption>
-        </figure>
-
-        <figure>
-          <a href="./publicaciones.html">
-            <img src="./imagenes/gato4.jpg" width="200px" height="200px" class="imgcat">
-          </a>          
-          <figcaption>
-            <a class="fw-bolder" href="./publicaciones.html">Ver más</a>
-          </figcaption>
-        </figure>
+<body>
+    <header>
+        <section class="container-navegador">
+            <div class="container-navegador-imagen">
+                <img src="./imagenes/Adocat.png" alt="logo">
+            </div>
+            <div class="container-navegador-enlaces">
+                <ul class="navegador-enlaces">
+                    <li><a href="./acerca.html">Acerca de nosotros</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="container-paginas">
+            <ul class="container-paginas-enlaces">
+                <li><a href="./adopta.html">Adopta</a></li>
+                <li><a href="./comoadoptar.html">Cómo adoptar</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="./ayudanos.html">Ayúdanos</a>
+                        <div class="dropdown-content">
+                        <a href="./adopta.html">Adopta</a>
+                        <a href="./donativos.html">Donacion</a>
+                        <a href="./tienda.html">Tienda</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="./donativos.html">Donativos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </section>
+    </header>
+    <main class="container-contenido">
+      <div class="indice-superior">
+        <ul id="arriba">
+            <li><a href="#abajo">Bajar</a></li>
+        </ul>
       </div>
-    </article>
-
-  </section>
-
-  <section id="contact">
-    <hgroup class="text-center">
-      <h1 class="fw-bolder">Para conocernos personalmente, visitanos en nuestro Centro de Adopción:</h1>
-    </hgroup>
-    <p class="text-center">Avda. Mcal. López Nº 125 c/ 12 de Junio.</p>    
-
-    <figure class="text-center">
-      <img src="./imagenes/mapa.png" height="300px" width="500px">
-    </figure>
-
-    <div class="d-flex justify-center">
-      <a href="mailto:info@adocat.com.py" class="email">
-        <img src="./imagenes/gmail.png" height="30" width="30" />
-        <p>Correo: info@adocat.com.py</p>      
-      </a>
-      <a href="tel:+595972237222" class="email">
-        <img src="./imagenes/telefono.jpg" height="30" width="30" />
-        <p>Celular: (0972) 237-222</p>      
-      </a>
+        <section class="contenido-inicio">
+          <article>
+            <p class="titulo">Bienvenidos a Adocat</p>
+            <p>
+              Queremos que seas parte de la transformación social sobre la conciencia de adoptar responsablemente, ellos necesitan un hogar cálido y lleno de amor.
+              Una de las mejores ideas que puedes tener para el crecimiento de tus hijos es adoptar una mascota para que entre ambos exista una conexión de amor, ternura y respeto hacia el otro.
+              Lamentablemente, existen personas que abandonan a los animales en las calles, dejándolos librados a su buena suerte. Sería importante que adoptaras a algunos de estos seres portadores de alegría.
+              Pero no es tan fácil llevar a un gato a nuestra casa. Es por esto que decidimos ayudarte con esta tarea. Para que conozcas más, te presentamos nuestra organización y nuestra misión con la sociedad, rescatar, sanar y ubicar en un hogar responsable a estos peluditos que traen alegría a nuestro hogar, visita nuestra sección de Publicaciones para conocer a nuestros gatitos.
+            </p>
+          </article>
+          <article>
+            <h2>Aquí verás a algunos de nuestros gatitos en busca de hogar:</h2>
+            <p class="click">Haz click en Ver más y podrás acceder a las varias publicaciones con los gatitos que buscan hogar.</p>
+            <ul>
+              <li><a href=""></a><img src="./imagenes/gato1.jpg">Ver más</li>
+              <li><a href=""></a><img src="./imagenes/gato2.jpg">Ver más</li>
+              <li><a href=""></a><img src="./imagenes/gato3.jpg">Ver más</li>
+              <li><a href=""></a><img src="./imagenes/gato4.jpg">Ver más</li>
+            </ul>
+          </article>
+          <article>
+              <ul>
+                <li>Correo: <a href="mailto:info@adocat.com.py">info@adocat.com.py</a></li>
+                <li>Celular: <a href="tel:0972237222">(0972)237-222</a></li>
+              </ul>
+          </article>
+          <article class="contenido-ubicacion">
+            <h3>Visitanos en nuestro Centro de Adopción:</h3>
+            <p>Avda. Mcal. López Nº 125 c/ 12 de Junio</p>
+            <div class="imagen">
+                <img src="./imagenes/mapa.png" >
+            </div>
+          </article>
+        </section>
+    </main>
+    <div class="indice-inferior">
+        <ul id="abajo">
+            <li><a href="#arriba">Subir</a></li>
+        </ul>
     </div>
-  </section>
-
-  <section id="social">
-    <hgroup class="text-center">
-      <h1>Seguinos en nuestras redes sociales:</h1>
-    </hgroup>
-
-    <div class="d-flex justify-center" font="">
-      <a href="#" class="d-flex" target="_blank">
-        <img src="./imagenes/facebook.png" height="18px" width="18px">Facebook
-      </a>
-      <a href="#" class="d-flex" target="_blank">
-        <img src="./imagenes/instagram.jpg" height="18px" width="18px">Instagram
-      </a>
-      <a href="#" class="d-flex" target="_blank">
-        <img src="./imagenes/whatsapp.png" height="18px" width="18px">Whatsapp
-      </a>
-      <a href="#" class="d-flex" target="_blank">
-        <img src="./imagenes/tiktok.jpg" height="18px" width="18px">Tiktok
-      </a>
-    </div>
-  </section>
-
-  <a href="#arriba">
-    <font size="5px" face="Arial">Arriba</font>
-  </a>
+    <footer>
+        <address>Elaborado por: Araceli Moreno, Leyla Galeano</address>
+        <section class="left">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Whatsapp</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./imagenes/Adocat.png" alt="logo" >
+        </section>
+    </footer>
 </body>
-<address>
-</address>
 </html>
