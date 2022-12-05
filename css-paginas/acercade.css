@@ -41,26 +41,7 @@ body {
     font-style: italic;
 }
 
-.acercade-datos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 80px;
-}
 
-.acercade-datos p {
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    background-color: blanchedalmond;
-    width: 200px;
-    height: 200px;
-    border: 5px solid blanchedalmond;
-    border-radius: 50px;
-    text-align: center;
-    font-weight: bold;
-    padding: 25px;
-}
 
 
 .contenido-ubicacion h3 {

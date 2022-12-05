@@ -85,8 +85,12 @@ body {
 .contenido-ubicacion .imagen {
     display: flex;
     justify-content: center;
-    border: 2px solid white;
-    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;    
+}
+
+.contenido-ubicacion img {
+    width: 100%;
 }
 
 .contenido-inicio article {

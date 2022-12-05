@@ -17,12 +17,14 @@ body {
     text-align: justify;
     margin: 50px;
 }
-.container-contenido section ul {
+
+
+.container-contenido .contacto {
     display: flex;
     justify-content: center;
     gap: 80px;
 }
-.container-contenido section ul li {
+.container-contenido .contacto li {
     list-style: none;
     font-weight: bold;
     font-style: italic;
@@ -76,6 +78,7 @@ body {
 .container-contenido .gif {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -102,3 +105,4 @@ body {
 .indice-inferior ul li:hover {
     color: black;
 }
+

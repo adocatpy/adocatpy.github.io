@@ -106,3 +106,8 @@ body {
 .indice-inferior ul li:hover {
     color: black;
 }
+
+.contenido-ayuda a {
+    text-decoration: none;
+    color: brown;
+}

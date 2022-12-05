@@ -5,80 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donativos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <link rel="stylesheet" href="./css-paginas/donativos.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header id="subir">
-        <section class="container-navegador">
-            <div class="container-navegador-imagen">
-                <img src="./imagenes/Adocat.png" alt="logo">
-            </div>
-            <div class="container-navegador-enlaces">
-                <ul class="navegador-enlaces">
-                    <li><a href="./acerca.html">Acerca de nosotros</a></li>
-                    <li><a href="./noticias.html">Noticias</a></li>
-                    <li><a href="./tienda.html">Tienda</a></li>
-                </ul>
-            </div>
-        </section>
-        <section class="container-paginas">
-            <ul class="container-paginas-enlaces">
-                <li><a href="./adopta.html">Adopta</a></li>
-                <li><a href="./comoadoptar.html">Cómo adoptar</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a href="./ayudanos.html">Ayúdanos</a>
-                        <div class="dropdown-content">
-                        <a href="./adopta.html">Adopta</a>
-                        <a href="./donativos.html">Donacion</a>
-                        <a href="./tienda.html">Tienda</a>
-                        </div>
-                      </div>
-                </li>
-                <li><a href="./donativos.html">Donativos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </section>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/Adocat.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active font-weight-bold mr-1">
+              <a class="nav-link" href="./adopta.html">Adopta</a>
+            </li>
+            <li class="nav-item active font-weight-bold mr-1">
+                <a class="nav-link" href="./comoadoptar.html">¿Cómo adoptar?</a>
+              </li>
+            <li class="nav-item dropdown active font-weight-bold">
+              <a class="nav-link dropdown-toggle" href="./ayudanos.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                Ayúdanos
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./donativos.html">Donativos</a>
+                <a class="dropdown-item" href="./tienda.html">Tienda</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./contacto.html">Contacto</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item active font-weight-bold mr-1">
+              <a class="nav-link" href="./tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item active font-weight-bold mr-1">
+              <a class="nav-link" href="./acerca.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item active font-weight-bold mr-1">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
     <main class="container-contenido">
         <section>
             <h3>Hacer un donativo al Centro Adocat</h3>
-            <p>Actos de generosidad y compromiso como el que estás a punto de realizar, permiten que en el Centro Adocat podamos seguir desarrollando nuestra labor, por lo cual te estamos muy agradecidos. De esta forma, tu aportación económica se convierte en acción directa para la protección de animales en situación de peligro. Tenemos disponible nuestros contactos para facilitarte información sobre los métodos de donación, también puedes contribuir con nosotros donando balanceados para todas las edades o haciendo una compra en nuestra Tienda.
-            </p>
+            <ul class="desordenada">
+                <li>Actos de generosidad y compromiso como el que estás a punto de realizar, permiten que en el Centro Adocat podamos seguir desarrollando nuestra labor, por lo cual te estamos muy agradecidos.</li>
+                <li>De esta forma, tu aportación económica se convierte en acción directa para la protección de animales en situación de peligro.</li>
+                <li>Tenemos disponible nuestros contactos para facilitarte información sobre los métodos de donación, también puedes contribuir con nosotros donando balanceados para todas las edades o haciendo una compra en nuestra Tienda.</li>
+            </ul>
             <h3>Nuestros contactos: </h3>
-            <ul>
+            <ul class="contacto">
                 <li>Correo: <a href="mailto:info@adocat.com.py">info@adocat.com.py</a></li>
                 <li>Celular: <a href="tel:0972237222">(0972)237-222</a></li>
             </ul>
-            <p class="tienda">Visita nuestra tienda: <a href="./tienda.html"> Tienda</a></p>
             <div class="gif">
                 <img src="./imagenes/gif.gif">
-            </div>     
+            </div>
+            <p class="tienda">Visita nuestra tienda: <a href="./tienda.html"> Tienda</a></p>     
         </section>
     </main>
     <div class="indice-inferior">
         <ul>
             <li><a href="./ayudanos.html">Anterior</a></li>
-            <li><a href="./contacto.html">Siguiente</a></li>
+            <li><a href="./tienda.html">Siguiente</a></li>
             <li><a href="./index.html">Inicio</a></li>
         </ul>
     </div>
-    <footer>
-        <address>Elaborado por: Araceli Moreno, Leila Galeano</address>
-        <section class="left">
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="tel:0972237222">Whatsapp</a></li>
-                <li><a href="#">Instagram</a></li>
-            </ul>
-        </section>
-        <section class="right">
-            <img src="./imagenes/Adocat.png" alt="logo" >
-        </section>
+    <footer id="footer">
+        <div class="container pt-4">
+            <div class="row text-left">
+                <div class="col-12 col-lg">
+                    <address class="firma">
+                        <ul class="firma-lista text-white">
+                            <li>Elaborado por: </li>
+                            <li><i class="fa fa-user mr-2"></i> Araceli Moreno</li>
+                            <li><a href="mailto:armoreno@uaa.edu.py"><i class="fa fa-envelope mr-1"></i> armoreno@uaa.edu.py</a></li>
+                            <li><a href="tel:0976671466"><i class="fa fa-phone mr-2"></i> (0976) 671-466</a></li>
+                            <li class="mt-2"><i class="fa fa-user mr-2"></i>Leila Galeano</li>   
+                            <li><a href="mailto:galeanoleila07@gmail.com"><i class="fa fa-envelope mr-1"></i>  galeanoleila07@gmail.com</a></li>
+                            <li><a href="tel:0983543474"><i class="fa fa-phone mr-2"></i> (0983) 543-474</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="col-12 col-lg">
+                    <ul class="lista">
+                    <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg">
+                    <ul class="lista">
+                        <li><a href="./noticias.html">Noticias</a></li>
+                       <li><a href="./contacto.html">Contacto</a></li>
+                       <li><a href="./comoadoptar.html">¿Cómo adoptar?</a></li>
+                       <li><a href="./ayudanos.html">Ayúdanos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+              <hr color="white">
+              <div class="text-center text-white">
+                <i class="fa fa-copyright"></i> 2022 Adocat
+              </div>
+            </div>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
