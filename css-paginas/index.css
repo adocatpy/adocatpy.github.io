@@ -91,6 +91,14 @@ body {
 
 .contenido-ubicacion img {
     width: 100%;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .contenido-ubicacion img {
+        max-width: 800px;
+    }
 }
 
 .contenido-inicio article {

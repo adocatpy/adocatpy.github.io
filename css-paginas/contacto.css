@@ -49,15 +49,21 @@ body {
     justify-content: center;
     border: 2px solid white;
     border-radius: 5px;
-
 }
+.contenido-ubicacion img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .contenido-ubicacion img {
+        max-width: 800px;
+    }
+}
+
 .container-form h2 {
     text-align: center;
 }
-
-
-
-
 
 .indice-inferior ul {
     display: flex;
