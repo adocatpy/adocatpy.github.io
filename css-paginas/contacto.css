@@ -91,3 +91,12 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.table {
+    width: 500px;
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+}
